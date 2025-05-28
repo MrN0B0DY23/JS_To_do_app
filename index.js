@@ -14,7 +14,7 @@ function create(){
     }
 }
 function read (){
-    display.innerHTML +=`<li click="del(Event)">${text_inp.value}</li>`
+    display.innerHTML +=`<li onclick="del(Event)">${text_inp.value}</li>`
         text_inp.value =""
 } 
 function update(){
